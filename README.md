@@ -1,22 +1,21 @@
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black.svg)](https://voicestockalert.streamlit.app/)
+
 # PROJECT: Voice-Based Stock Alert App
 
-This Streamlit web app fetches real-time stock prices using yfinance and reads them aloud using ElevenLabs' text-to-speech API.
+A real time, voice-enabled stock tracking app built with **Streamlit**, **yfinance**, **Plotly**, and **ElevenLabs**.
 
-### Features
+Get live price updates, 7-day performance visualisation, and spoken alerts.
 
-1. Supports multiple stock symbols
-2. Combined stock price chart (last 5 days)
-3. Voice alert generation
-4. Voice selector (Rachel, Bella, Domi, etc.)
-5. Price threshold slider
-6. Live audio playback
+## Features
 
-### Technologies
+1. Real time voice alerts using ElevenLabs TTS
+2. Combined line chart of selected stocks (past 7 days)
+3. Voice selector (Rachel, Antoni, Bella, etc.)
+4. Alert threshold slider (e.g., alert me if any stock drops below $100)
+5. Built-in charting using Plotly
+6. Clean, fast, and responsive UI (Streamlit Cloud ready)
 
-- Streamlit
-- yfinance
-- Plotly
-- ElevenLabs API
+App live at https://voicestockalert.streamlit.app/  
 
 ### Setup
 
